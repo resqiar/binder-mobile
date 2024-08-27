@@ -1,4 +1,4 @@
-package com.example.binder
+package com.hubku.binder
 
 import io.flutter.embedding.android.FlutterActivity
 
