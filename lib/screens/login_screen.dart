@@ -1,3 +1,4 @@
+import 'package:binder/service/auth_service.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -35,7 +36,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 40),
                       ElevatedButton.icon(
-                        onPressed: (){},
+                        onPressed: handleSignIn,
                         style: ElevatedButton.styleFrom(
                           minimumSize: const Size(double.infinity, 50),
                           backgroundColor: const Color(0xFF2E58FF),
