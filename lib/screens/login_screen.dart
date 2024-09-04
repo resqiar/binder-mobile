@@ -36,7 +36,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 40),
                       ElevatedButton.icon(
-                        onPressed: handleSignIn,
+                        onPressed: () => handleSignIn(context),
                         style: ElevatedButton.styleFrom(
                           minimumSize: const Size(double.infinity, 50),
                           backgroundColor: const Color(0xFF2E58FF),
